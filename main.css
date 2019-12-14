@@ -1,0 +1,99 @@
+/*Navigation bar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 34px 36px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.Navbar {
+    background-color: #333;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/*Conainer*/
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 6fr 6fr;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container2 {
+    justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe;
+    background-color: lightblue;
+}
+img:hover {
+    transform: scale(1.1);
+}
+img {
+    width: 450px;
+    width: 300px;
+    margin: 10px;
+    transition: all in 4s;
+    grid-gap: 10px;
+    align-items: center;
+}
+width:450px;
+width:300px;
+margin:10px;
+transition: all in 4s;
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.Section1 {
+    background-color: #054A91;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/*Section 2*/
+
+.Section2 {
+    background-color: red;
+    padding: 100px;
+}
+
+#sc2 {
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom:5px solid pink;
+    box-shadow: 4px 4px 4px #888;
+    text-align: center;
+}
+
+/*Footer*/
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: brown;
+    padding: 10px;
+    font-size: 30px;
+}
